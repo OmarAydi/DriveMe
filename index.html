@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DriveMe | Smart Taxi Service</title>
+  <link rel="stylesheet" href="css.style.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  <header>
+    <h1>DriveMe</h1>
+    <p>Fast. Safe. Smart.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="home" class="section reveal">
+      <h2>Ride with Confidence</h2>
+      <p>Your city, your ride — powered by DriveMe.</p>
+      <img src="https://media.istockphoto.com/id/519870714/photo/taxi.jpg?s=612x612&w=0&k=20&c=mzlqm5eisvu-B7hCyOK3LAsR4ugFTsHtC2kMWUmbA0Y=" alt="Taxi hero" />
+
+      <div class="ride-form">
+        <input type="text" placeholder="Enter pickup location" />
+        <input type="text" placeholder="Enter destination" />
+        <button>Book Now</button>
+      </div>
+    </section>
+
+    <section id="about" class="section reveal">
+      <h2>About Us</h2>
+      <p>DriveMe is redefining urban transportation with reliable, tech-driven services.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Vue_de_Tunis.jpg" alt="City View" />
+    </section>
+
+    <section id="services" class="section reveal">
+      <h2>Our Services</h2>
+      <div class="gallery">
+        <img src="https://media.gettyimages.com/id/996412132/photo/waiting-for-taxi.jpg?s=612x612&w=0&k=20&c=Q6ZD40QqHnd2B_4EC5TuR_i8MMDI04jROL2WMaWgyCw=" alt="Waiting for taxi" />
+        <img src="https://media.istockphoto.com/id/123025806/photo/nyc-taxi.jpg?s=612x612&w=0&k=20&c=VZq6cWQD_7usQ8V_8TPUqiHmm9WFromgwe0s__aGo1Y=" alt="NYC taxi" />
+        <img src="https://t3.ftcdn.net/jpg/00/72/92/02/360_F_72920223_kewrcfJuaiW2mFthXRLgk8y3czWQJhCt.jpg" alt="Modern taxi service" />
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <h2>Contact Us</h2>
+      <p>Reach us at <strong>driveme.tm@gmail.com</strong></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 DriveMe. All rights reserved.</p>
+  </footer>
+
+  <script>
+    ScrollReveal().reveal('.reveal', {
+      duration: 1000,
+      origin: 'bottom',
+      distance: '50px',
+      easing: 'ease-in-out'
+    });
+  </script>
+</body>
+</html>
